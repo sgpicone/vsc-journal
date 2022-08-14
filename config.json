@@ -1,0 +1,10 @@
+{
+    "journalDirectory": "main",
+    "privateDirectories": [
+        "main"
+    ],
+    "shortDateFormat" : "yyyy-MM-DD",
+    "longDateFormat" : "dddd, MMMM DD, yyyy",
+    "yearDirFormat" : "yyyy",
+    "monthDirFormat" : "MM-MMMM"
+}

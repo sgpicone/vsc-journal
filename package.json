@@ -1,0 +1,30 @@
+{
+  "name": "vsc-journal",
+  "version": "1.0.0",
+  "description": "A template for using Visual Studio Code as a journal",
+  "main": "index.js",
+  "scripts": {
+    "make-tree": "node .scripts/make-tree.js",
+    "new": "node .scripts/newEntry.js",
+    "postnew": "npm run make-tree",
+    "crypt": "node .scripts/crypt.js",
+    "lock": "node .scripts/crypt.js lock",
+    "unlock": "node .scripts/crypt.js unlock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgpicone/vsc-journal.git"
+  },
+  "author": "sgpicone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgpicone/vsc-journal/issues"
+  },
+  "homepage": "https://github.com/sgpicone/vsc-journal#readme",
+  "devDependencies": {
+    "cryptify": "^4.1.2",
+    "markdown-notes-tree": "^1.12.0",
+    "moment": "^2.29.4",
+    "yargs": "^17.5.1"
+  }
+}

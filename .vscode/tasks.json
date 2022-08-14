@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "new journal entry",
+            "type": "npm",
+            "script": "new",
+            "problemMatcher": "$eslint-compact"
+        },
+        {
+            "label": "new journal page",
+            "type": "shell",
+            "command": "npm run new -- page -f ${input:folder} -n ${input:name}"
+        },
+        {
+            "label": "lock journal",
+            "type": "shell",
+            "command": "npm run lock ${input:password}"
+        },
+    ],
+    "inputs": [
+        {
+            "id": "folder",
+            "description": "Folder:",
+            "default": "",
+            "type": "promptString"
+        },
+        {
+            "id": "name",
+            "description": "Page name:",
+            "default": "",
+            "type": "promptString"
+        }
+    ]
+}

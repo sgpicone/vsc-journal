@@ -1,0 +1,70 @@
+{
+    "insertDateString.formatDate": "DDDD, MMMM DD, YYYY",
+    "insertDateString.formatTime": "hh:mm:ss",
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "markdownlint.config": {
+        "MD028": false,
+        "MD013": false,
+        "MD033": false
+    },
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "package.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        "*.code-workspace",
+        ".gitignore",
+        "config.json",
+        "markdown-cheat-sheet.md"
+    ],
+    "cSpell.enabled": true,
+    "cSpell.diagnosticLevel": "Warning",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "elixir",
+        "git-commit",
+        "go",
+        "graphql",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "jupyter",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "pug",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "swift",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "yaml",
+        "yml"
+    ],
+    "cSpell.words": [
+        "Cryptify"
+    ],
+    "cSpell.ignoreWords": []
+}

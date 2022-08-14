@@ -6,5 +6,20 @@
     "shortDateFormat" : "yyyy-MM-DD",
     "longDateFormat" : "dddd, MMMM DD, yyyy",
     "yearDirFormat" : "yyyy",
-    "monthDirFormat" : "MM-MMMM"
+    "monthDirFormat" : "MM-MMMM",
+    "makeTreeConfig": {
+        "ignore": [
+            "res",
+            "img"
+        ],
+        "numberSpaces": 2,
+        "includeAllDirectoriesByDefault": false,
+        "linkToSubdirectoryReadme": false,
+        "noSubdirectoryTrees": false,
+        "notesBeforeDirectories": false,
+        "orderNotesByTitle": false,
+        "silent": false,
+        "subdirectoryDescriptionOnNewLine": false,
+        "useTabs": false
+    }
 }

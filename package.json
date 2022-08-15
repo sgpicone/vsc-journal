@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "make-tree": "node .scripts/make-tree.js",
-    "new": "node .scripts/newEntry.js",
+    "new": "node .scripts/new.js",
     "postnew": "npm run make-tree",
     "crypt": "node .scripts/crypt.js",
     "lock": "node .scripts/crypt.js lock",

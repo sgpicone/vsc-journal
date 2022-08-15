@@ -10,13 +10,21 @@
         {
             "label": "new journal page",
             "type": "shell",
-            "command": "npm run new -- page -f ${input:folder} -n ${input:name}"
+            "command": "npm run new -- page -f ${input:folder} -n ${input:name}",
+            "problemMatcher": "$eslint-compact"
         },
         {
             "label": "lock journal",
             "type": "shell",
-            "command": "npm run lock ${input:password}"
+            "command": "npm run lock -- --password ${input:password}",
+            "problemMatcher": "$eslint-compact"
         },
+        {
+            "label": "unlock journal",
+            "type": "shell",
+            "command": "npm run unlock -- --password ${input:password}",
+            "problemMatcher": "$eslint-compact"
+        }
     ],
     "inputs": [
         {
@@ -28,6 +36,12 @@
         {
             "id": "name",
             "description": "Page name:",
+            "default": "",
+            "type": "promptString"
+        },
+        {
+            "id": "password",
+            "description": "Password:",
             "default": "",
             "type": "promptString"
         }

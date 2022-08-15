@@ -1,4 +1,7 @@
 {
+    "files.exclude": {
+        "**/.git": false
+    },
     "insertDateString.formatDate": "DDDD, MMMM DD, YYYY",
     "insertDateString.formatTime": "hh:mm:ss",
     "[markdown]": {

@@ -6,6 +6,7 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
+- [About this Template](about.md)
 - [Help](help.md)
 - [Markdown Cheat Sheet](markdown-cheat-sheet.md)
 - [Quick Start Guide](quick-start.md)

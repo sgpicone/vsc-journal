@@ -8,8 +8,9 @@
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
     "markdownlint.config": {
-        "MD028": false,
         "MD013": false,
+        "MD026": false,
+        "MD028": false,
         "MD033": false
     },
     "cSpell.ignorePaths": [
@@ -67,7 +68,8 @@
         "yml"
     ],
     "cSpell.words": [
-        "Cryptify"
+        "Cryptify",
+        "journaling"
     ],
     "cSpell.ignoreWords": []
 }

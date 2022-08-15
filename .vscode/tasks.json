@@ -8,7 +8,7 @@
             "problemMatcher": "$eslint-compact"
         },
         {
-            "label": "new journal page",
+            "label": "new non-journal page",
             "type": "shell",
             "command": "npm run new -- page -f ${input:folder} -n ${input:name}",
             "problemMatcher": "$eslint-compact"
@@ -24,6 +24,17 @@
             "type": "shell",
             "command": "npm run unlock -- --password ${input:password}",
             "problemMatcher": "$eslint-compact"
+        },
+        {
+            "type": "npm",
+            "script": "install",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "label": "npm: install",
+            "detail": "install dependencies from package"
         }
     ],
     "inputs": [

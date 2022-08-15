@@ -6,7 +6,9 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
-- [About this Template](about.md)
-- [Help](help.md)
+- [About This Journal](about.md)
+- [Features](features.md)
+- [Usage Guide](guide.md)
 - [Markdown Cheat Sheet](markdown-cheat-sheet.md)
 - [Quick Start Guide](quick-start.md)
+- [Why did you do this? What's wrong with you?](story.md)

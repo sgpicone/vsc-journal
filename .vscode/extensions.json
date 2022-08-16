@@ -8,6 +8,8 @@
         "bierner.markdown-emoji",
         "jebbs.markdown-extended",
         "pkief.markdown-checkbox",
-        "loosegoose.webster-search"
+        "loosegoose.webster-search",
+        "bierner.markdown-mermaid",
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
     ]
 }

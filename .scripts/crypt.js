@@ -40,8 +40,6 @@ const argv = yargs
 
 checkCommands(argv, 1);
 
-
-
 const targetPaths = [].concat(argv.target);
 const fileList = targetPaths.map(dir => {
     return path.join(__dirname, "..", path.normalize(dir));

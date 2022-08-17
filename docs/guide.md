@@ -231,6 +231,14 @@ The extensions in VS Code generally all have their own settings and loads of fea
 
 ### VS Code Snippets
 
+[Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in VS Code are templates that make repeatable patterns a little faster and easier to implement. I included a couple basic ones in the [snippets.code-snippets](../.vscode/snippets.code-snippets) file. The ones I included are very basic - they'll wrap text in HTML code to color them according to your specifications.
+
+For example, to make text <span style="color: red">red</span>, you can highlight it, then type `bad`, and press `ctrl+space`, then `enter`. The text you highlighted will return, surrounded by `<span style="color: red"></span>` to color it red.
+
+Similarly, you can use `meh` for <span style="color: yellow">yellow</span> and `good` for <span style="color: green">green</span>. You can also use `mm` to <span style="color: purple">specify a color of your choice</span>.
+
+These are just a few snippets I made that served a purpose for me, but feel free to play around and write your own!
+
 ### VS Code Extensions
 
 I'd love to say the extensions I've included are *specially curated to improve your journaling experience*, but the truth is that I just picked what worked best for me&mdash;often this meant that I was either choosing the first/highest rated option, or the *only* option.
@@ -248,7 +256,9 @@ This is a neat little extension that just lets you quickly insert date/time stri
 They look like this:
 
 Time: 17:51:30
+
 Date: Tuesday, August 16, 2022
+
 DateTime: 2022-08-16 17:51:45
 
 You can change the formats they use via the [settings.json](../.vscode/settings.json) file.
@@ -281,7 +291,7 @@ Adds some extra commands/snippets for quickly creating checkboxes in Markdown, a
 
 #### [Webster Search](https://marketplace.visualstudio.com/items?itemName=loosegoose.webster-search)
 
-Bit of a shameless self plug - this is an extension I wrote by modifying the Google Search extension above. It adds a right-click option that allows you to search Webster's online dictionary for the text you've highlighted.
+This is a really simple extension I wrote by modifying the Google Search extension above. It adds a right-click option that allows you to search Webster's online dictionary for the text you've highlighted.
 
 #### [Markdown Mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 

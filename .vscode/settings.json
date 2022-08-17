@@ -2,6 +2,7 @@
     "files.exclude": {
         "**/.git": false
     },
+    "markdown-checkbox.typeOfBulletPoint": "-",
     "insertDateString.formatDate": "DDDD, MMMM DD, YYYY",
     "insertDateString.formatTime": "hh:mm:ss",
     "[markdown]": {

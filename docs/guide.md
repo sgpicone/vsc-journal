@@ -207,6 +207,14 @@ At its core, this journal is really just a VS Code workspace with a couple littl
 
 VS Code has a hierarchy of settings levels that basically results in *most* settings being overridden by workspace-level settings. If you modify the settings contained within `.vscode/settings.json` in this journal, these workspace settings are the ones you're modifying. They will apply to this journal and *only* this journal, so if you open other projects or folders in VS Code, your journal settings will be separate from those settings.
 
+For example, if you use VS Code for writing code and generally prefer dark color themes, but you like light color themes for writing and journaling, you can add the line
+
+```json
+"workbench.colorTheme": "Visual Studio Light",
+```
+
+to make it so that your journal (and only your journal) uses the default Visual Studio Light theme. There are *lots* of themes in the Visual Studio Marketplace -- definitely check them out!
+
 Most of the settings I've included by default in the `settings.json` file actually only apply to the optional extensions. They're just a few things I thought might be useful to have around by default. You can feel free to change these as you wish.
 
 A few that might be immediately interesting to you are

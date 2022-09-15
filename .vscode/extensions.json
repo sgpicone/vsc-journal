@@ -10,6 +10,7 @@
         "pkief.markdown-checkbox",
         "loosegoose.webster-search",
         "bierner.markdown-mermaid",
-        "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        "valentjn.vscode-ltex"
     ]
 }

@@ -27,6 +27,7 @@ tree_title: Usage Guide
       - [Webster Search](#webster-search)
       - [Markdown Mermaid](#markdown-mermaid)
       - [Mermaid Markdown Syntax Highlighting](#mermaid-markdown-syntax-highlighting)
+      - [LTeX Spelling and Grammar Check](#ltex-spelling-and-grammar-check)
 
 <!-- cSpell: enable -->
 ## Basics
@@ -312,3 +313,9 @@ Adds support to preview [Mermaid diagrams](https://mermaid-js.github.io/mermaid/
 #### [Mermaid Markdown Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting)
 
 Similar to the above, but this one just adds syntax highlighting for Mermaid code blocks.
+
+#### [LTeX Spelling and Grammar Check](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex)
+
+I found this well after finding Code Spell Checker, and I might like it a bit more because it will also check your grammar. That being said, I still like Code Spell Checker because it spell-checks *code* as well as regular old text and prose, and I'm not certain that LTeX does the same. Or, if it does, that it does it similarly as reliably. Remains to be seen.
+
+The good news is, you can definitely run both alongside each other and just make it so that cSpell doesn't run for file types like `markdown` or `txt` or whatever file types you choose to use.

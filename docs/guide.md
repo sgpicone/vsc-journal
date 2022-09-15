@@ -245,6 +245,10 @@ For example, to make text <span style="color: red">red</span>, you can highlight
 
 Similarly, you can use `meh` for <span style="color: yellow">yellow</span> and `good` for <span style="color: green">green</span>. You can also use `mm` to <span style="color: purple">specify a color of your choice</span>.
 
+I also added a `prompt` snippet. Simply type `prompt` and press `ctrl+space` and it will add 3 question prompts to your journal entry and allow you to easily answer and `tab` through them. You can edit the questions or add new ones by modifying the [snippets.code-snippets](../.vscode/snippets.code-snippets) file!
+
+There's also a `time` snippet, which will insert a second-level heading with the current time. This way, if you're like me and like to do this, you can easily mark sections of your journal with the time at which you're updating it.
+
 These are just a few snippets I made that served a purpose for me, but feel free to play around and write your own!
 
 ### VS Code Extensions

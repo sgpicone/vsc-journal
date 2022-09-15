@@ -46,5 +46,23 @@
 			"<span style=\"color: yellow\">$TM_SELECTED_TEXT</span>"
 		],
 		"description": "Colored text"
+	},
+	"Timestop": {
+		"scope": "markdown",
+		"prefix": "time",
+		"body": [
+			"## $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n\n"
+		],
+		"description": "Colored text"
+	},
+	"Journal Prompts": {
+		"scope": "markdown",
+		"prefix": "prompt",
+		"body": [
+			"### What is something good that happened today?\n\n$1",
+			"\n### What is something that could have been improved? How could you improve it?\n\n$2",
+			"\n### What haven't you done because you are afraid?\n\n$3",
+		],
+		"description": "Generate prompts you can fill in for your daily journal entry."
 	}
 }
